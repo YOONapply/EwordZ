@@ -1,48 +1,60 @@
 html, body {
     height: 100%;
-    margin: 0;   
+    margin: 0;
+    background-color: #F25A38;
 }
+
 #mainWindow {
-    height: 80%; 
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-btn{
-    background-color: steelblue;
-    color: white;
+button {
+    color: #0D0D0D;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     border: none;
-    border-radius: 5px;
+    border-radius: 12px; /* 둥글게 만들기 */
     font-size: 16px;
+    padding: 10px 20px; /* 버튼 패딩 */
+    cursor: pointer; /* 마우스 커서 변경 */
+    transition: background-color 0.3s ease; /* 배경색 변화 애니메이션 */
 }
 
-#logoImg{
-    margin-bottom: 20%
+.btn:hover {
+    background-color: deepskyblue; /* 마우스를 올렸을 때 배경색 */
+}
+
+#logoImg {
+    margin-bottom: 20%;
 }
 
 #startBtn {
-    height: 13%; 
-    width: 70%;  
-    margin-bottom: 5%
+    background-color: #F2CDC4;
+    height: 13%;
+    width: 70%;
+    margin-bottom: 5%;
 }
 
-#login_joinBtn{
-    height: 7%; 
-    width: 70%;  
-    margin-bottom: 10%
+#login_joinBtn {
+    background-color: #F2CDC4;
+    height: 7%;
+    width: 70%;
+    margin-bottom: 10%;
 }
 
-#shopBtn{
-    height: 12%;
-    width: 17%;
+#shopBtn {
+    background-color: #F2CDC4;
+    height: 10%;
+    width: 35%;
 }
 
-img{
-    max-width: 100%;  
+img {
+    margin-top: 25%;
+    max-width: 100%;
     height: auto;
 }
