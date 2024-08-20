@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    margin: 0;   
+}
+#mainWindow {
+    height: 80%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+btn{
+    background-color: steelblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#logoImg{
+    margin-bottom: 20%
+}
+
+#startBtn {
+    height: 13%; 
+    width: 70%;  
+    margin-bottom: 5%
+}
+
+#login_joinBtn{
+    height: 7%; 
+    width: 70%;  
+    margin-bottom: 10%
+}
+
+#shopBtn{
+    height: 12%;
+    width: 17%;
+}
+
+img{
+    max-width: 100%;  
+    height: auto;
+}
