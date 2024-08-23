@@ -14,8 +14,8 @@
     display: flex; /* flexbox 사용 */
     justify-content: center; /* 가로 방향으로 가운데 정렬 */
     align-items: center; /* 세로 방향으로 가운데 정렬 */
-    width: 80%;
-    height: 15%; /* 원하는 높이 설정 */
+    width: 230px;
+    height: 70px; /* 원하는 높이 설정 */
     padding: 0 30px; /* 좌우 패딩 설정 */
     background-color: #F2CDC4;
     text-decoration: none;
