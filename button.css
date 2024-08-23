@@ -1,0 +1,35 @@
+#mainWindow {
+    display: flex; /* Flexbox 사용 */
+    flex-direction: column; /* 버튼을 세로로 배치 */
+    align-items: center; /* 버튼을 가로로 가운데 정렬 */
+    gap: 20px; /* 버튼 사이의 간격 설정 */
+    padding: 20px; /* 여백을 추가하여 버튼이 컨테이너의 가장자리와 붙지 않도록 함 */
+}
+
+.main_btn {
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-size: 23px; /* 기본 폰트 크기 설정 */
+    color: #0D0D0D;
+    display: flex; /* flexbox 사용 */
+    justify-content: center; /* 가로 방향으로 가운데 정렬 */
+    align-items: center; /* 세로 방향으로 가운데 정렬 */
+    width: 75%; /* 버튼의 너비 설정 */
+    height: 60px; /* 버튼의 높이 설정 (높이를 늘림) */
+    padding: 0 30px; /* 좌우 패딩 설정 */
+    background-color: #F2CDC4;
+    text-decoration: none;
+    border: 1px solid rgba(0,0,0,0.21);
+    border-bottom: 4px solid rgba(0,0,0,0.21);
+    border-radius: 4px;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+}
+
+@media (max-width: 480px) { /* 매우 작은 화면 (예: 스마트폰) 크기에 맞춰 조정 */
+    .main_btn {
+        font-size: 25px; /* 폰트 크기를 더 줄임 */
+        width: 85%; /* 버튼 너비를 100%로 조정 */
+        height: 68px; /* 버튼 높이를 조정 */
+        padding: 0 15px; /* 좌우 패딩을 줄임 */
+    }
+}
