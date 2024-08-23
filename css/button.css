@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .main_btn {
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #0D0D0D;
+    display: inline-flex; /* flexbox 사용 */
+    justify-content: center; /* 가로 방향으로 가운데 정렬 */
+    align-items: center; /* 세로 방향으로 가운데 정렬 */
+    width: 75%;
+    height: 11%; /* 원하는 높이 설정 */
+    padding: 0 30px; /* 패딩을 좌우로만 설정 */
+    background-color: #F2CDC4;
+    text-decoration: none;
+    border: 1px solid rgba(0,0,0,0.21);
+    border-bottom: 4px solid rgba(0,0,0,0.21);
+    border-radius: 4px;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+    margin: 5px auto; /* 버튼을 가로로 가운데 정렬 */
+  }
+  

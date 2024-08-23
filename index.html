@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/button.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Jua&display=swap" rel="stylesheet">
@@ -12,9 +13,8 @@
 <body>
     <div id="mainWindow">
         <img src="EwordZ.jpg" alt="#" id="logoImg">
-        <button id="startBtn" herf="startWindow.html">시작하기</button>
-        <button id="login_joinBtn">로그인 / 회원가입</button>
-        <button id="shopBtn">상점</button>
+        <a href="#" class="main_btn">시작하기</a>
+        <a href="#" class="main_btn">로그인 / 회원가입</a>
     </div>
     <script>
         document.getElementById('startBtn').onclick = function() {
@@ -23,10 +23,6 @@
 
         document.getElementById('login_joinBtn').onclick = function() {
             window.location.href = 'loginJoin_Window.html';
-        };
-
-        document.getElementById('shopBtn').onclick = function() {
-            window.location.href = 'shop_Window.html';
         };
     </script>
 </body>

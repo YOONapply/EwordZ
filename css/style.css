@@ -12,50 +12,12 @@ html, body {
     align-items: center;
 }
 
-button {
-    font-family: "Jua", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #0D0D0D;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    border-radius: 12px; /* 둥글게 만들기 */
-    padding: 10px 20px; /* 버튼 패딩 */
-    cursor: pointer; /* 마우스 커서 변경 */
-    transition: background-color 0.3s ease; /* 배경색 변화 애니메이션 */
-}
-
 .btn:hover {
     background-color: deepskyblue; /* 마우스를 올렸을 때 배경색 */
 }
 
 #logoImg {
-    margin-bottom: 20%;
-}
-
-#startBtn {
-    background-color: #F2CDC4;
-    font-size: 30px;
-    height: 13%;
-    width: 70%;
-    margin-bottom: 5%;
-}
-
-#login_joinBtn {
-    font-size: 20px;
-    background-color: #F2CDC4;
-    height: 7%;
-    width: 70%;
-    margin-bottom: 10%;
-}
-
-#shopBtn {
-    font-size: 30px;
-    background-color: #F2CDC4;
-    height: 10%;
-    width: 35%;
+    margin-bottom: 30%;
 }
 
 img {
